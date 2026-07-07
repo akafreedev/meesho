@@ -1,0 +1,81 @@
+.meesho1{
+    float: right;
+    
+
+
+    
+    
+}
+.meesho4 {
+    background-image: url(meesho9.webp);
+   
+}
+.aathi {
+    color: white;
+    position: absolute;
+    left: 950px;
+    bottom: 250px;
+}
+
+.aathi2 {
+    position: absolute;
+    left: 800px;
+    top: 900px;
+}
+.aathi3 {
+    background-color: transparent;
+    position: absolute;
+    left: 300px;
+    top: 1270px;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    animation: scroll 10s linear infinite
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(-50%);
+    }
+}
+
+.item {
+    width: 140px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.aathi5 {
+    position: absolute;
+    left: 100px;
+    top: 2240px;
+}
+
+.aathi6 {
+    position: absolute;
+    left: 550px;
+    top: 2050px;
+}
+
+.aathi7 {
+    position: absolute;
+    left: 350px;
+    top: 2400px;
+}
